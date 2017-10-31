@@ -7,9 +7,8 @@ function init() {
   }  
 }
 
-function checkForChange() {
-  
-  //The string to search for
+function checkForChange() {//The string to search for starts form here
+ 
   var find = 'S3';
   
   var url = 'https://ktu.edu.in/eu/core/announcements.htm';
