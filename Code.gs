@@ -9,7 +9,7 @@ function init() {
 
 function checkForChange() {
   
-  //The string to search for
+  //The string that is to be searched for
   var find = 'S3';
   
   var url = 'https://ktu.edu.in/eu/core/announcements.htm';
@@ -24,7 +24,7 @@ function checkForChange() {
   
   var text = html.substring(indices[1], indices[2]);
   
-  //checks if the extracted html contains the find string
+  //check if the extracted html contains the find string
   if(text.indexOf(find) != -1){
     
     var sheet = SpreadsheetApp.getActiveSheet();  
